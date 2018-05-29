@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset : "UTF-8">
+<link rel="stylesheet" href="css\main.css"\>
+<title>CV</title>
+</head>
+<body id="bd">
+<p id=rev> MR BRASSART ANTHONY</p>
+<p>(31ans) </p>
+<button id="btn">Tuez-moi !!!</button>
+<h6 id=coor style="display:none;">
+<p>29 rue Sainte Barbe - 08200 Sedan</p>
+  <p>07.60.84.84.59</p>
+  <p>inseri.sama@gmail.com</p>
+  <p>17/12/1986</p>
+  <p>Permis B</p></h6>
+<h1>TECHNICIEN INFORMATIQUE</h1>
+<h2>MES COMPETENCES</h2>
+<ul>
+<li> Assembler un ordinateur</li>
+<li> Maintenir un Système Informatique</li>
+<li> Gérer un parc Informatique</li>
+<li> Installer et paramétrer un Serveur Informatique (Solutions Microsoft)</li>
+<li> Utiliser les suites bureautiques (Suites Microsoft Office et Open Office)</li>
+<li> Dépanner un Système Informatique</li>
+<li> Gérer à distance un ou plusieurs ordinateurs</li>
+<li> Installer un réseau informatique</li>
+<li> Gérer un projet</li>
+<li> Utiliser la langue anglaise</li>
+<li> Programmer en HTML</li>
+<li> Programmer en PHP</li>
+<li> Programmer en .NET</li>
+<li> Vendre</li>
+</ul>
+<h2>MES EXPERIENCES PROFESSIONNELLES</h2>
+<ul>
+ 	<li>De Juin 2013 à Mai 2014 : Gérant d'un magasin  de vente et dépannage informatique et consoles à Sedan</li>
+ 	<li>Janvier 2013 : Technicien Informatique Stagiaire Neosys (Rethel)</li>
+ 	<li>Décembre 2012 : Technicien Informatique Stagiaire JL'Formatik  (Vouziers)</li>
+ 	<li>De Mars 2012 à Juin 2012 : Technicien Informatique Stagiaire  Collège Saint Louis  (Vouziers)</li>
+ 	<li>Mai 2011 : Technicien Informatique Stagiaire Collège Saint Louis  (Vouziers)</li>
+ 	<li>Janvier 2011 : Technicien Informatique Stagiaire Collège Saint Louis  (Vouziers)</li>
+ 	<li>Décembre 2010 : Technicien Informatique Stagiaire CFPPA  (Rethel)</li>
+ 	<li>De Septembre 2007 à Juillet 2008 : Bénévole au FJEP de Vouziers section initiation à l'informatique</li>
+ 	<li>De Septembre 2007 à Février 2008 : Vendeur  sur les marchés</li>
+</ul>
+<h2>MON PARCOURS PROFESSIONNEL</h2>
+<ul>
+ 	<li>De Septembre 2011 à Juin 2012 : Formation Technicien Supérieur en Système Informatique (TSSI) au CFPPA de Rethel</li>
+ 	<li>De Mars 2011 à Juillet 2011 : Formation Technicien Assistant en Informatique (TAI) au CFPPA de Rethel</li>
+ 	<li>De Septembre 2009 à Juillet 2010 : Première année de Licence MMI (Mathématiques, Mécanique et Informatique) à l'Université</li> de Reims
+ 	<li>De Septembre 2008 à Juillet 2009 : Première année de Licence LLCE Anglais (Langues, Littératures et Civilisations Etrangères) à l'Université de Reims</li>
+</ul>
+<h2>INFORMATIONS COMPLEMENTAIRES</h2>
+<ul>
+    <li>Fait de la veille informatique</li>
+    <li>Notions en Japonais</li>
+</ul>
+<script>
+var rev = document.getElementById('rev');
+var coor = document.getElementById("coor");
+var but = document.getElementById("btn");
+
+rev.addEventListener('click',reveal);
+but.addEventListener('click',kill);
+
+function reveal (){
+	/*bds.style.backgroundColor = 'black'/*url("barre.png") fixed no-repeat 75px 0px, url("binaire.jpg")*/;
+	if(coor.style.display == 'none'){;
+	coor.style.display='block';}
+	else
+	{coor.style.display='none';}
+	/*alert('Hourra');*/
+};
+function kill (){
+	but.style.display = 'none';
+    alert('You killed a poor useless button ... Yeah!!!');
+};
+</script>
+<?php
+echo "My first PHP script!";
+?>
+</body>
+</html>
